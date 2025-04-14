@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 表单域 -->
+    <form action="#" method="post" name="userForm"></form>
+
+    <!-- 表单元素 -->
+    <form>
+        <!-- text 文本框 用户可以在里面输入任何文本  maxlength属性设置文本框最大长度 -->
+        用户名：<input type="text" name="username" value="请输入用户名" maxlength="6"><br>
+        <!-- password 密码框 用户输入的内容会被隐藏 -->
+        密码：<input type="password" name="password" value="请输入密码"><br>
+        <!-- radio 单选按钮 只能选择一个选项 -->
+        <!-- name是表单元素名字 这里性别单选按钮必须有相同的名字name 才可以实现多选一 -->
+        <!-- 单选按钮和多选框可以设置checked属性来设置默认选中的选项  -->
+        性别：男<input type="radio" name="sex" value="男">
+
+
+        女<input type="radio" name="sex" value="女"><br>
+        <!-- checkbox 多选框 可以选择多个选项 -->
+        爱好：音乐<input type="checkbox" name="hobby" value="音乐">
+        电影<input type="checkbox" name="hobby" value="电影">
+        旅游<input type="checkbox" name="hobby" value="旅游" checked="checked"><br>
+
+        <input type="submit" value="提交"></input>
+        <input type="reset" value="重置"></input><br>
+        <input type="button" value="获取短信验证码"></input><br>
+        上传头像：<input type="file"></input>
+    </form>
+
+
+
+
+    <!-- label 标签 -->
+    <label for="text">请输入用户名</label><input type="text" id="text"></input><br>
+    <input type="radio" name="sex" value="男" id="nan"></input><label for="nan">男</label>
+    <input type="radio" name="sex" value="女" id="nv"></input><label for="nv">女</label><br>
+
+    <form>
+
+        <!-- select 下拉列表框 选择一个选项 -->
+        籍贯：<select>
+            <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="广州">广州</option>
+            <option value="深圳">深圳</option>
+            <option value="其他" selected="seleced">其他</option>
+
+        </select><br>
+
+        <!-- txtarea 文本域 -->
+        今日反馈：
+        <textarea rows="5" cols="20"> 今天天气不错
+       
+      </textarea>
+    </form>
+</body>
+
+</html>
