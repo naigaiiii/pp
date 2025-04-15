@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 选择器：选择器是用来选中HTML元素的。 */
+
+        h2 {
+            font-family: "宋体";
+            color: rgb(0, 238, 255);
+        }
+
+
+
+        .bold {
+            /* font-weight: bold; 加粗文本 */
+            font-weight: 700;
+            /* 400是正常文字 */
+        }
+
+        .italic {
+            font-style: italic;
+            /* 斜体文本  normal让em变为正常文字 */
+        }
+
+        div {
+            /* 复合属性： 简写的方式 节约代码  */
+            /* font: font-style 字体粗细font-weight  font-size/line-height font-family; */
+            /*font: italic 700 16px 'Microsoft yahei'; */
+            font: 20px '黑体';
+            /* 文字水平对齐方式：left、right、center */
+            text-align: center;
+            /* 装饰文本，给文本添加下划线 underline、默认没有下划线none、删除线line-through、上划线overline等 */
+            text-decoration: underline;
+            /* 文本的第一行首行缩进 多少距离 */
+            /* text-indent: 20px; */
+            /* 缩进当前元素2个文字大小的距离 */
+            text-indent: 2em;
+            /* 行高：行与行之间的距离 */
+            line-height: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>pppp</h2>
+    <div>New content here</div>
+    <p class="bold">New content here</p>
+    <span>New content here</span>
+    <p class="italic">New content here</p>
+</body>
+
+</html>
