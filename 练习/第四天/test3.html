@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            width: 100px;
+            height: 50px;
+            /* 把行内元素a转换为块级元素 */
+            display: block;
+            background-color: #0f86e1e3;
+        }
+
+        div {
+            width: 100px;
+            height: 50px;
+            /* 把div块级元素转换为行内元素 */
+            display: inline;
+            background-color: #f5bd08e3;
+
+        }
+
+        span {
+            width: 100px;
+            height: 50px;
+            background-color: #0aeb4dce;
+            /* 把span转换为行内块级元素  :一行能放多个，可以设置宽高*/
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">qqqq</a>
+    <div>qqqqq</div>
+    <div>oooooo</div>
+    <span>eeeeeee</span>
+    <span>eeeeeee</span>
+</body>
+
+</html>
