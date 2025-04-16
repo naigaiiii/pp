@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 清除内外边距 */
+        * {
+            margin: 0;
+            /* 清除外边距 */
+            padding: 0;
+            /* 清除内边距 */
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: #22dd0d; */
+            /* 边框简写 */
+            /* border: 5px solid #22dd0d; */
+            border: 5px solid #0d11dd;
+            border-top: 5px solid #dd4f0d;
+            /* border-bottom: 5px dashed #0d3edd; */
+            margin: 0 auto;
+
+        }
+
+
+        table {
+            width: 300px;
+            height: 200px;
+        }
+
+        table,
+        td,
+        th {
+            border: 2px solid #03cbefee;
+            /* 相邻的边框合并 */
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- border: border-width /| border-style //border-color
+    属性              作用
+    border-width     定义边框粗细，单位是px
+    border-style     边框的样式 solid 实线边框 dashed 虚线边框 dotted 点线边框
+    border-color     边框颜色 -->
+    <div></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>18</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>19</td>
+                <td>女</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- 内边距
+    padding属性用于设置内边距，即边框与内容之间的距离。
+    属性                作用
+    padding-left       左内边距
+    padding-right      右内边距
+    padding-top        上内边距
+    padding-bottom     下内边距 -->
+
+    <!-- padding属性（简写属性）可以有一到四个值。
+    值的个数                表达意思
+    padding:5px;             1个值，代表上下左右都有5像素内边距；
+    padding: 5px 10px;      2个值，代表上下内边距是5像素 左右内边距是10像素；
+    padding: 5px 10px 20px; 3个值，代表上内边距5像素 左右内边距10像素 下内边距20像素；
+    padding: 5px 10px 20px 30px; 4个值，上是5像素 右10像素 下20像素左是30像素 顺时针 -->
+
+
+    <!-- 外边距 -->
+    <!-- margin属性用于设置外边距，即控制盒子和盒子之间的距离。
+    属性                作用
+    margin-left         左外边距
+    margin-right        右外边距
+    margin-top          上外边距
+    margin-bottom       下外边距 
+    他的简写与padding一样
+    -->
+
+
+
+</body>
+
+</html>
