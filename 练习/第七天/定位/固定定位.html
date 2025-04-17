@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w {
+
+            width: 600px;
+            height: 1400px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+
+        .fixed {
+
+            position: fixed;
+            /* 走浏览器宽度的一半 */
+            left: 50%;
+            /* 利用margin 走版心宽度的一半的距离 */
+            margin-left: 305px;
+
+        }
+
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="fixed">
+        <img src="meinv.png" alt="">
+    </div>
+    <div class="w">版心盒子</div>
+
+</html>
